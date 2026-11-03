@@ -11,3 +11,8 @@ insert into producto(nombre, precio)
 values ("Mouse", 50),
 ("Teclado", 80),
 ("Monitor", 600);
+
+create table inventario (
+    id int primary key auto_increment,
+    cantidad int
+);
